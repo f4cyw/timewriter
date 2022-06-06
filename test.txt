@@ -1,3 +1,9 @@
 TEST
+<<<<<<< HEAD
 this is written in ipad mini
 
+=======
+
+
+This is written by Jonathan
+>>>>>>> f49ff0d5cd9df63c46de6b9d801cad68966e5a07
