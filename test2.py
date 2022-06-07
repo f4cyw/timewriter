@@ -5,9 +5,9 @@ RELIEFS = [tk.SUNKEN, tk.RAISED, tk.GROOVE, tk.RIDGE, tk.FLAT]
 class ButtonsApp(tk.Tk): 
     def __init__(self): 
         super().__init__() 
-        self.img = tk.PhotoImage(file="python.gif") 
+        #self.img = tk.PhotoImage(file="python.gif") 
         self.btn = tk.Button(self, text="Button with image", 
-                             image=self.img, compound=tk.LEFT, 
+                             compound=tk.LEFT, 
                              command=self.disable_btn) 
         self.btns = [self.create_btn(r) for r in RELIEFS]         
         self.btn.pack() 
